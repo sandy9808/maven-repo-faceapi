@@ -1,0 +1,15 @@
+{
+    "message": "Face recognized",
+    "results": [
+        [
+            {
+                "id": 1,
+                "distance": 0.6116592884063721,
+                "entity": {
+                    "name": "Sandeep Kumar"
+                }
+            }
+        ]
+    ]
+}
+export PATH=$PATH:~/apache-maven-3.9.6/bin
