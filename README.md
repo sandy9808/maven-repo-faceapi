@@ -9,6 +9,9 @@ https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html
 2. After installing Java 11, host face-api.js locally by following commands:
 ```bash
 cd face-api-js
+rm -r -f venv
+python -m venv venv
+pip install uvicorn fastapi
 source venv/bin/activate
 python script.py
 ```
